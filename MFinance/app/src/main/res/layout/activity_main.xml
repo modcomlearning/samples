@@ -58,7 +58,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginLeft="10dp"
         android:id="@+id/family"/>
-<!-- File> New > XML -->
+        <!-- File> New > XML -->
 
   </LinearLayout>
 

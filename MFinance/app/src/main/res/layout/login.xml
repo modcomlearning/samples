@@ -60,18 +60,4 @@
           android:textStyle="bold"
           android:drawableLeft="@android:drawable/ic_menu_save"/>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </LinearLayout>

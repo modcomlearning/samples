@@ -2,80 +2,117 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:orientation="vertical"
+    android:background="#3F51B5"
     android:layout_height="match_parent">
 
-
-<!--  TextView, Button, EditText, CheckBox, RadioButton-->
+    <!-- TextViews, EditText, Button, checkBox, RadioButton-->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Register"
+        android:text="Register Screen"
+        android:textColor="#ffffff"
         android:textStyle="bold"
-        android:fontFamily="sans-serif"
         android:textSize="40sp"
         android:gravity="center"/>
 
 
     <EditText
         android:id="@+id/etEmail"
+        android:inputType="textEmailAddress"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:hint="Your Email"
+        android:hint="Enter Email"
+        android:background="#ffffff"
         android:layout_margin="10dp"
-        android:inputType="textEmailAddress"/>
+        />
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:inputType="phone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Tel"
+        android:background="#ffffff"
+        android:layout_margin="10dp"
+        />
 
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Which Program to Enroll"
-        android:layout_margin="10dp"
-        android:textStyle="bold"/>
-
-    <CheckBox
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Android"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:text="Which Program to Enroll?"
         android:layout_margin="10dp"/>
 
     <CheckBox
+        android:id="@+id/cbxAndroid"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Python"
-        android:layout_margin="10dp"/>
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:text="Android"/>
 
+    <CheckBox
+        android:id="@+id/cbxHTML"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:text="HTML"/>
 
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
         android:layout_margin="10dp"
         android:text="Your Gender"/>
 
-
+    <!-- we sue radio to allow single selection-->
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <RadioButton
+            android:id="@+id/rbMale"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
             android:layout_margin="10dp"
             android:text="Male"/>
 
         <RadioButton
+            android:id="@+id/rbFemale"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
             android:layout_margin="10dp"
             android:text="Female"/>
-
     </RadioGroup>
 
+
+
+    <EditText
+        android:id="@+id/etResidence"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Residence"
+        android:background="#ffffff"
+        android:layout_margin="10dp"
+        />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Register"/>
+        android:text="Register Now"
+        android:textStyle="bold"
+        android:layout_margin="10dp"/>
+
 
 
 </LinearLayout>

@@ -6,13 +6,18 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4982275b-22cf-446b-aa7f-41a6ed9b3955" name="Default Changelist" comment="Fourth  Commit" />
+    <list default="true" id="4982275b-22cf-446b-aa7f-41a6ed9b3955" name="Default Changelist" comment="Fourth  Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/register.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="0123456789ABCDEF" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_27" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -138,10 +143,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Fourth  Commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="127" y="116" width="712" height="463" key="CommitChangelistDialog2" timestamp="1594291260902">
+    <state x="127" y="116" width="712" height="463" key="CommitChangelistDialog2" timestamp="1594291344682">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state x="127" y="116" width="712" height="463" key="CommitChangelistDialog2/0.0.1024.728@0.0.1024.728" timestamp="1594291260902" />
+    <state x="127" y="116" width="712" height="463" key="CommitChangelistDialog2/0.0.1024.728@0.0.1024.728" timestamp="1594291344682" />
     <state width="962" height="12" key="GridCell.Tab.0.bottom" timestamp="1594288421138">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
