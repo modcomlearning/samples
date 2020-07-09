@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#3F51B5"
+    android:layout_height="match_parent">
+
+   <!-- child tags-->
+   <!-- TextView, Button, EditText, CheckBox  -->
+    <TextView
+        android:id="@+id/tvheading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Username"
+        android:background="#ffffff"
+        android:layout_margin="20dp"
+        android:inputType="text"
+        android:drawableLeft="@android:drawable/ic_btn_speak_now"/>
+
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:background="#ffffff"
+        android:layout_margin="20dp"
+        android:inputType="textPassword"
+        android:drawableLeft="@android:drawable/ic_lock_lock"/>
+
+
+      <CheckBox
+          android:id="@+id/cbRem"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Remember Me"
+          android:layout_margin="20dp"
+          android:textColor="#ffffff"
+          android:checked="true"
+          android:textSize="20sp"/>
+
+      <Button
+          android:id="@+id/btnLogin"
+          android:layout_width="100dp"
+          android:layout_height="wrap_content"
+          android:text="Login"
+          android:layout_margin="20dp"
+          android:fontFamily="monospace"
+          android:textStyle="bold"
+          android:drawableLeft="@android:drawable/ic_menu_save"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

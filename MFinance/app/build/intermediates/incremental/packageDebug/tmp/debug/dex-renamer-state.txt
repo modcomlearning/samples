@@ -1,0 +1,4 @@
+#Thu Jul 09 12:54:12 EAT 2020
+base.0=/home/user/AndroidStudioProjects/MFinance/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
