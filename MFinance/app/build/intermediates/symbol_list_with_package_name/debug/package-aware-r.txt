@@ -744,11 +744,10 @@ id beginning
 id blocking
 id bottom
 id btnLogin
-id btnRegister
 id buttonPanel
 id cbRem
 id cbxAndroid
-id cbxPython
+id cbxHTML
 id center_vertical
 id chains
 id checkbox
@@ -770,6 +769,8 @@ id end
 id equity
 id etEmail
 id etPassword
+id etPhone
+id etResidence
 id etUsername
 id expand_activities_button
 id expanded_menu
@@ -866,8 +867,6 @@ id titleDividerNoCustom
 id title_template
 id top
 id topPanel
-id tvGender
-id tvProgram
 id tvheading
 id unchecked
 id uniform
