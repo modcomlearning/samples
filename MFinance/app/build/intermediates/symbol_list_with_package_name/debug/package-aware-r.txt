@@ -744,9 +744,12 @@ id beginning
 id blocking
 id bottom
 id btnLogin
+id button
 id buttonPanel
 id cbRem
 id cbxAndroid
+id cbxBolivia
+id cbxGreece
 id cbxHTML
 id center_vertical
 id chains
@@ -764,14 +767,21 @@ id dialog_button
 id dimensions
 id direct
 id disableHome
+id editTextNumber1
+id editTextNumber2
+id editTextTextEmailAddress
+id editTextTextPassword
+id editTextTextPersonName
 id edit_query
 id end
 id equity
+id etCapital
 id etEmail
 id etPassword
 id etPhone
 id etResidence
 id etUsername
+id etmunich
 id expand_activities_button
 id expanded_menu
 id family
@@ -812,8 +822,10 @@ id percent
 id progress_circular
 id progress_horizontal
 id radio
+id rbEast
 id rbFemale
 id rbMale
+id rbWest
 id right
 id right_icon
 id right_side
@@ -847,6 +859,7 @@ id stanbic
 id standard
 id start
 id submenuarrow
+id submit
 id submit_area
 id tabMode
 id tag_accessibility_actions
@@ -861,6 +874,7 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
+id textView
 id time
 id title
 id titleDividerNoCustom
@@ -868,6 +882,7 @@ id title_template
 id top
 id topPanel
 id tvheading
+id tvoutput
 id unchecked
 id uniform
 id up
@@ -917,7 +932,9 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
 layout custom_dialog
+layout europe
 layout login
+layout mysample
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big
@@ -925,6 +942,7 @@ layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout register
+layout sample
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material

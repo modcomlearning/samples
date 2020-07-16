@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#3F51B5"
+    android:layout_height="match_parent">
+
+    <!-- TextViews, EditText, Button, checkBox, RadioButton-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How Well do you know Europe"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"/>
+
+
+    <EditText
+        android:id="@+id/etCapital"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="What is the Capital of France?"
+        android:background="#ffffff"
+        android:layout_margin="10dp"
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:text="Which Coutries are in Europe?"
+        android:layout_margin="10dp"/>
+
+    <CheckBox
+        android:id="@+id/cbxGreece"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:text="Greece"/>
+
+    <CheckBox
+        android:id="@+id/cbxBolivia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:text="Bolivia"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_margin="10dp"
+        android:text="Where is Italy Located in Europe?"/>
+
+    <!-- we sue radio to allow single selection-->
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbEast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:text="East"/>
+
+        <RadioButton
+            android:id="@+id/rbWest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:text="West"/>
+    </RadioGroup>
+
+
+
+    <EditText
+        android:id="@+id/etmunich"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Munich is Capital of"
+        android:background="#ffffff"
+        android:layout_margin="10dp"
+        />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textStyle="bold"
+        android:layout_margin="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:layout_margin="10dp"
+        android:text="Designed by: Joseph"/>
+
+</LinearLayout>
