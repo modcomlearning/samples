@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#F44336"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <!-- BMI Calculator -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BMI Calc"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/edittextweight"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:layout_marginLeft="10dp"
+        android:hint="Your Weight"/>
+
+
+    <EditText
+        android:id="@+id/edittextheight"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:inputType="number"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Your Height"/>
+
+
+    <Button
+        android:id="@+id/buttonfind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Find BMI"/>
+
+    <TextView
+        android:id="@+id/textviewanswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Answer here.."
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        />
+
+
+</LinearLayout>

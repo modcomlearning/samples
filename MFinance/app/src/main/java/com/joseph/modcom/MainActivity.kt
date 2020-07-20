@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         //You need to remember the ids you used in XML
         //Make the button listen to click, currently the button is not working
         //What is the button id in XML?
-        //Am repeating
+        //Am repeating.
 
         submit.setOnClickListener(View.OnClickListener {
             //What are the ids for our edittext
@@ -32,6 +32,6 @@ class MainActivity : AppCompatActivity() {
             tvoutput.append(pass.append("\n"))  //append pass to textview
             tvoutput.append(email.append("\n"))  //append email to textview
             //Done
-        });
+        });//end
     }
 }

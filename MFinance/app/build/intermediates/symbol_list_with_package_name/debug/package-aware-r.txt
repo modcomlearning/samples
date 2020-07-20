@@ -744,8 +744,8 @@ id beginning
 id blocking
 id bottom
 id btnLogin
-id button
 id buttonPanel
+id buttonfind
 id cbRem
 id cbxAndroid
 id cbxBolivia
@@ -767,12 +767,12 @@ id dialog_button
 id dimensions
 id direct
 id disableHome
-id editTextNumber1
-id editTextNumber2
 id editTextTextEmailAddress
 id editTextTextPassword
 id editTextTextPersonName
 id edit_query
+id edittextheight
+id edittextweight
 id end
 id equity
 id etCapital
@@ -874,7 +874,7 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
-id textView
+id textviewanswer
 id time
 id title
 id titleDividerNoCustom
@@ -931,10 +931,10 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout bmi
 layout custom_dialog
 layout europe
 layout login
-layout mysample
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big

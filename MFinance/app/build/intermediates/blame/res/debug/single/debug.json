@@ -76,10 +76,6 @@
         "source": "/home/user/AndroidStudioProjects/MFinance/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/user/AndroidStudioProjects/MFinance/app/build/intermediates/res/merged/debug/layout_mysample.xml.flat",
-        "source": "/home/user/AndroidStudioProjects/MFinance/app/src/main/res/layout/mysample.xml"
-    },
-    {
         "merged": "/home/user/AndroidStudioProjects/MFinance/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "/home/user/AndroidStudioProjects/MFinance/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
@@ -98,6 +94,10 @@
     {
         "merged": "/home/user/AndroidStudioProjects/MFinance/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "/home/user/AndroidStudioProjects/MFinance/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/user/AndroidStudioProjects/MFinance/app/build/intermediates/res/merged/debug/layout_bmi.xml.flat",
+        "source": "/home/user/AndroidStudioProjects/MFinance/app/src/main/res/layout/bmi.xml"
     },
     {
         "merged": "/home/user/AndroidStudioProjects/MFinance/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher_background.png.flat",
