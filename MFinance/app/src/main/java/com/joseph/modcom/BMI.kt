@@ -4,8 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import kotlinx.android.synthetic.main.bmi.*
-
-//27cvjwq
+//modcom.co.ke/zoom
 //0729 225 710
 class BMI : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
