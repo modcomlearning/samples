@@ -19,19 +19,20 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.joseph.modcom.BMI" >
+        <activity
+            android:name="com.joseph.modcom.MainActivity2"
+            android:label="@string/title_activity_main3" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.joseph.modcom.MainActivity3" >
+        </activity>
+        <activity android:name="com.joseph.modcom.BMI" >
+        </activity>
         <activity android:name="com.joseph.modcom.MainActivity" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 

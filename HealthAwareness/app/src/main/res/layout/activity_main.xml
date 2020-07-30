@@ -110,5 +110,16 @@
         android:layout_marginRight="10dp"
         android:id="@+id/buttonshare"/>
 
+       <!-- Below button will lnk to a List   -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hospitals"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/buttonhosi"/>
+
 </LinearLayout>
 </ScrollView>

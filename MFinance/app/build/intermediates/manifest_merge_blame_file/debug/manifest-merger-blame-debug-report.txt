@@ -11,7 +11,7 @@
 9-->/home/user/AndroidStudioProjects/MFinance/app/src/main/AndroidManifest.xml
 10
 11    <application
-11-->/home/user/AndroidStudioProjects/MFinance/app/src/main/AndroidManifest.xml:5:5-26:19
+11-->/home/user/AndroidStudioProjects/MFinance/app/src/main/AndroidManifest.xml:5:5-30:19
 12        android:allowBackup="true"
 12-->/home/user/AndroidStudioProjects/MFinance/app/src/main/AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -28,34 +28,35 @@
 19        android:testOnly="true"
 20        android:theme="@style/AppTheme" >
 20-->/home/user/AndroidStudioProjects/MFinance/app/src/main/AndroidManifest.xml:11:9-40
-21        <activity android:name="com.joseph.modcom.BMI" >
-21-->/home/user/AndroidStudioProjects/MFinance/app/src/main/AndroidManifest.xml:12:9-18:20
-21-->/home/user/AndroidStudioProjects/MFinance/app/src/main/AndroidManifest.xml:12:19-38
-22            <intent-filter>
-22-->/home/user/AndroidStudioProjects/MFinance/app/src/main/AndroidManifest.xml:13:13-17:29
-23                <action android:name="android.intent.action.MAIN" />
-23-->/home/user/AndroidStudioProjects/MFinance/app/src/main/AndroidManifest.xml:14:17-69
-23-->/home/user/AndroidStudioProjects/MFinance/app/src/main/AndroidManifest.xml:14:25-66
-24
-25                <category android:name="android.intent.category.LAUNCHER" />
-25-->/home/user/AndroidStudioProjects/MFinance/app/src/main/AndroidManifest.xml:16:17-77
-25-->/home/user/AndroidStudioProjects/MFinance/app/src/main/AndroidManifest.xml:16:27-74
-26            </intent-filter>
-27        </activity>
-28        <activity android:name="com.joseph.modcom.MainActivity" >
-28-->/home/user/AndroidStudioProjects/MFinance/app/src/main/AndroidManifest.xml:19:9-25:20
-28-->/home/user/AndroidStudioProjects/MFinance/app/src/main/AndroidManifest.xml:19:19-47
-29            <intent-filter>
-29-->/home/user/AndroidStudioProjects/MFinance/app/src/main/AndroidManifest.xml:13:13-17:29
-30                <action android:name="android.intent.action.MAIN" />
-30-->/home/user/AndroidStudioProjects/MFinance/app/src/main/AndroidManifest.xml:14:17-69
-30-->/home/user/AndroidStudioProjects/MFinance/app/src/main/AndroidManifest.xml:14:25-66
-31
-32                <category android:name="android.intent.category.LAUNCHER" />
-32-->/home/user/AndroidStudioProjects/MFinance/app/src/main/AndroidManifest.xml:16:17-77
-32-->/home/user/AndroidStudioProjects/MFinance/app/src/main/AndroidManifest.xml:16:27-74
-33            </intent-filter>
-34        </activity>
-35    </application>
-36
-37</manifest>
+21        <activity
+21-->/home/user/AndroidStudioProjects/MFinance/app/src/main/AndroidManifest.xml:12:9-20:20
+22            android:name="com.joseph.modcom.MainActivity2"
+22-->/home/user/AndroidStudioProjects/MFinance/app/src/main/AndroidManifest.xml:13:13-42
+23            android:label="@string/title_activity_main3" >
+23-->/home/user/AndroidStudioProjects/MFinance/app/src/main/AndroidManifest.xml:14:13-57
+24            <intent-filter>
+24-->/home/user/AndroidStudioProjects/MFinance/app/src/main/AndroidManifest.xml:15:13-19:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->/home/user/AndroidStudioProjects/MFinance/app/src/main/AndroidManifest.xml:16:17-69
+25-->/home/user/AndroidStudioProjects/MFinance/app/src/main/AndroidManifest.xml:16:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->/home/user/AndroidStudioProjects/MFinance/app/src/main/AndroidManifest.xml:18:17-77
+27-->/home/user/AndroidStudioProjects/MFinance/app/src/main/AndroidManifest.xml:18:27-74
+28            </intent-filter>
+29        </activity>
+30        <activity android:name="com.joseph.modcom.MainActivity3" >
+30-->/home/user/AndroidStudioProjects/MFinance/app/src/main/AndroidManifest.xml:21:9-23:20
+30-->/home/user/AndroidStudioProjects/MFinance/app/src/main/AndroidManifest.xml:21:19-48
+31        </activity>
+32        <activity android:name="com.joseph.modcom.BMI" >
+32-->/home/user/AndroidStudioProjects/MFinance/app/src/main/AndroidManifest.xml:24:9-26:20
+32-->/home/user/AndroidStudioProjects/MFinance/app/src/main/AndroidManifest.xml:24:19-38
+33        </activity>
+34        <activity android:name="com.joseph.modcom.MainActivity" >
+34-->/home/user/AndroidStudioProjects/MFinance/app/src/main/AndroidManifest.xml:27:9-29:20
+34-->/home/user/AndroidStudioProjects/MFinance/app/src/main/AndroidManifest.xml:27:19-47
+35        </activity>
+36    </application>
+37
+38</manifest>

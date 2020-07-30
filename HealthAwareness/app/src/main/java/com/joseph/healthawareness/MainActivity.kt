@@ -80,7 +80,17 @@ class MainActivity : AppCompatActivity() {
 
             val shareIntent = Intent.createChooser(i, null)
             startActivity(shareIntent)
+        });//end
+
+        buttonhosi.setOnClickListener(View.OnClickListener {
+
+            val i = Intent(this, Hospitals::class.java)
+            startActivity(i) //This button takes you to Hospitals
+
         });
+
+
+
 
 
 
