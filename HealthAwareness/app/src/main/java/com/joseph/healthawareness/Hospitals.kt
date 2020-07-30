@@ -9,16 +9,14 @@ class Hospitals : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_hospitals)
-
+         //create an array of hospitals
         val hospitals = arrayOf<String> ("KNH","Mater","Nairobi Hosipital","Meridian","Mediheal","Kiambu")
 
-        //you need an adapter
-        //android.R.layout.simple_list_item_1     is an android internal layout for basic lists
+        //you need an adapter, observe below thjta we pass the 'hospitals' array above to the adapter , towards the end of below line
         val arrayAdapter  = ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, hospitals)
 
-        //put this adapter to your list
-       listhosi.adapter  = arrayAdapter
+        //set the adapter on line 16 to your listview
+        listhosi.adapter  = arrayAdapter
 
-        //DONE
     }
 }

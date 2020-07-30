@@ -10,6 +10,7 @@ class Prevention : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_prevention)
 
+        //put text data to Textview using textview id 'tvprevention'
         tvprevention.text = HtmlCompat.fromHtml("\n" +
                 "\n" +
                 "<body>\n" +

@@ -12,6 +12,7 @@ class About : AppCompatActivity() {
 
         //Load more data ot your text view
         //How to use HTML tags
+        //put text data to Textview using textview id 'tvprevention'
         aboutdata.text =  HtmlCompat.fromHtml("\n" +
                 "<body>" +
                 " <h2>About Covid</h2>" +
