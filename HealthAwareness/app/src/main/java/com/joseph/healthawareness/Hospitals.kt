@@ -10,6 +10,7 @@ class Hospitals : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_hospitals)
          //create an array of hospitals
+        //add more hospitals
         val hospitals = arrayOf<String> ("KNH","Mater","Nairobi Hosipital","Meridian","Mediheal","Kiambu")
 
         //you need an adapter, observe below thjta we pass the 'hospitals' array above to the adapter , towards the end of below line
