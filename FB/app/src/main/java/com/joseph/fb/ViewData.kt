@@ -28,12 +28,7 @@ class ViewData : AppCompatActivity() {
                     for (singleSnapshot in dataSnapshot.children) {
                         //show data in Tetxview
                         data.append(
-                            "ID: ${singleSnapshot.child("Client_ID").getValue(String::class.java)}\n\n Phone: ${singleSnapshot.child("Client_Phone")
-                                .getValue(
-                                    String::class.java
-                                )}\n\n Amount: ${singleSnapshot.child("Client_Amount").getValue(
-                                String::class.java
-                            )}"
+                            "ID: ${singleSnapshot.child("Client_ID").getValue(String::class.java)}\n\n Phone: ${singleSnapshot.child("Client_Phone").getValue(String::class.java)}\n\n Amount: ${singleSnapshot.child("Client_Amount").getValue(String::class.java)}"
                         )
                     }
                 } else {
