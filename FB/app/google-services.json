@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "984773039217",
+    "firebase_url": "https://mybasic-551b0.firebaseio.com",
+    "project_id": "mybasic-551b0",
+    "storage_bucket": "mybasic-551b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984773039217:android:e4d332c6cbff0363db37d0",
+        "android_client_info": {
+          "package_name": "com.joseph.fb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "984773039217-dqu1olj2k5pabuf0o4h0670ul4qj2a3g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlr76G0vPUJ-kLXX2IJGRCgudh4UfsByo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "984773039217-dqu1olj2k5pabuf0o4h0670ul4qj2a3g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
