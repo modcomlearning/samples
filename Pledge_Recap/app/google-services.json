@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "869426456496",
+    "firebase_url": "https://pledgercap.firebaseio.com",
+    "project_id": "pledgercap",
+    "storage_bucket": "pledgercap.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869426456496:android:2a5975ea4553b0749d9875",
+        "android_client_info": {
+          "package_name": "com.joseph.pledge_recap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "869426456496-ekdjg3ecdagpuc64ko82a5u6k1uhevgs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKnfR5L0gJdx9yr0QlXPpPSQDEj0aCyGQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "869426456496-ekdjg3ecdagpuc64ko82a5u6k1uhevgs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

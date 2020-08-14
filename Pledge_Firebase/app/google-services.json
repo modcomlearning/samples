@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "68563725898",
+    "firebase_url": "https://pledgeapp-314db.firebaseio.com",
+    "project_id": "pledgeapp-314db",
+    "storage_bucket": "pledgeapp-314db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68563725898:android:81af59ed3288cc080640b3",
+        "android_client_info": {
+          "package_name": "com.joseph.pledge_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68563725898-s3sl1cdrjdj2tijmatjj1f0rmjjciq24.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiyUflB8jzbr_XiDAMxbbONIyp-SL9R3U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68563725898-s3sl1cdrjdj2tijmatjj1f0rmjjciq24.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

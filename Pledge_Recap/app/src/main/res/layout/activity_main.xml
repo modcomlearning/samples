@@ -34,24 +34,24 @@
         android:id="@+id/editAmount"/>
 
 
-     <Button
-         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
-         android:text="Make A Pledge"
-         android:layout_marginTop="20dp"
-         android:layout_marginLeft="10dp"
-         android:id="@+id/buttonpledge"/>
-
-  <ScrollView
-      android:layout_width="match_parent"
-      android:layout_height="match_parent">
-    <TextView
+    <Button
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:textSize="20dp"
-        android:textColor="#F44336"
+        android:layout_height="wrap_content"
+        android:text="Make A Pledge"
         android:layout_marginTop="20dp"
-        android:layout_marginLeft="20dp"
-        android:id="@+id/data"/>
-  </ScrollView>
+        android:layout_marginLeft="10dp"
+        android:id="@+id/buttonpledge"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="#F44336"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/data"/>
+    </ScrollView>
 </LinearLayout>
