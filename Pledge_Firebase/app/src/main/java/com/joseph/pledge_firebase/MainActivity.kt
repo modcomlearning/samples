@@ -18,33 +18,33 @@ class MainActivity : AppCompatActivity() {
         val rootref: DatabaseReference  = FirebaseDatabase.getInstance().reference //your db
         val demoref:  DatabaseReference = rootref.child("members") //table
 
-
-            val postListener = object : ValueEventListener {
-            override fun onDataChange(dataSnapshot: DataSnapshot) {
-
-                if (dataSnapshot.exists()) {
-                    data.text = ""
-                    //show the data found in the Textview
-                    for (singleSnapshot in dataSnapshot.children) {
-                        //show data in Tetxview
-
-                        data.append("Confirmed.  ${singleSnapshot.child("Name").getValue(String::class.java)} has pledged");
-                        data.append(" ${singleSnapshot.child("Amount").getValue(String::class.java)} KES, Thank You!");
-                        data.append("\n\n")
-
-                    }
-                } else {
-                    //display Toast, No data
-                    data.setText("No data! Try Again")
-                }
-            }
-
-            override fun onCancelled(databaseError: DatabaseError) {
-                Toast.makeText(applicationContext, "Error fetching data", Toast.LENGTH_LONG)
-                    .show()
-            }
-        }
-        demoref.addValueEventListener(postListener)
+//
+//            val postListener = object : ValueEventListener {
+//            override fun onDataChange(dataSnapshot: DataSnapshot) {
+//
+//                if (dataSnapshot.exists()) {
+//                    data.text = ""
+//                    //show the data found in the Textview
+//                    for (singleSnapshot in dataSnapshot.children) {
+//                        //show data in Tetxview
+//
+//                        data.append("Confirmed.  ${singleSnapshot.child("Name").getValue(String::class.java)} has pledged");
+//                        data.append(" ${singleSnapshot.child("Amount").getValue(String::class.java)} KES, Thank You!");
+//                        data.append("\n\n")
+//
+//                    }
+//                } else {
+//                    //display Toast, No data
+//                    data.setText("No data! Try Again")
+//                }
+//            }
+//
+//            override fun onCancelled(databaseError: DatabaseError) {
+//                Toast.makeText(applicationContext, "Error fetching data", Toast.LENGTH_LONG)
+//                    .show()
+//            }
+//        }
+//        demoref.addValueEventListener(postListener)
 
 
         buttonpledge.setOnClickListener(View.OnClickListener {

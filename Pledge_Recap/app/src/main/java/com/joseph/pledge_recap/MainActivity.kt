@@ -15,11 +15,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        FirebaseApp.initializeApp(this);
-        //database reference
-        val rootref :DatabaseReference = FirebaseDatabase.getInstance().reference
-        //reference a table
-        val demoref : DatabaseReference = rootref.child("users")
+        FirebaseApp.initializeApp(this) //initialize your app
+        val rootref: DatabaseReference  = FirebaseDatabase.getInstance().reference //your db
+        val demoref:  DatabaseReference = rootref.child("members") //table
 
         buttonpledge.setOnClickListener(View.OnClickListener {
             //set up firebase
@@ -32,8 +30,6 @@ class MainActivity : AppCompatActivity() {
             //save them to demoref
             demoref.child(editId.text.toString()).setValue(userData) //Done
             Toast.makeText(this, "Saved", Toast.LENGTH_SHORT).show()
-
-
 
         });
 
