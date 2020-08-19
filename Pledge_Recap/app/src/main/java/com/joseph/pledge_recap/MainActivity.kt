@@ -1,5 +1,6 @@
 package com.joseph.pledge_recap
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -21,6 +22,10 @@ class MainActivity : AppCompatActivity() {
 
 
         //button to link to another
+        buttondata.setOnClickListener(View.OnClickListener {
+             val intent = Intent(this, Pledges::class.java)
+             startActivity(intent)//explicit
+        });
 
         buttonpledge.setOnClickListener(View.OnClickListener {
             //set up firebase
