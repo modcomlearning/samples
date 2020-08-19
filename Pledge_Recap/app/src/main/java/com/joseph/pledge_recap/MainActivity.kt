@@ -19,6 +19,9 @@ class MainActivity : AppCompatActivity() {
         val rootref: DatabaseReference  = FirebaseDatabase.getInstance().reference //your db
         val demoref:  DatabaseReference = rootref.child("members") //table
 
+
+        //button to link to another
+
         buttonpledge.setOnClickListener(View.OnClickListener {
             //set up firebase
             //Put your editexts texts, in a hashmap
@@ -28,6 +31,7 @@ class MainActivity : AppCompatActivity() {
             userData["Amount"]  = editAmount.text.toString()
 
             //save them to demoref
+            //child(editId.text.toString()) below specifies the PK
             demoref.child(editId.text.toString()).setValue(userData) //Done
             Toast.makeText(this, "Saved", Toast.LENGTH_SHORT).show()
 
