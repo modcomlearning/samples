@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+        
 
         FirebaseApp.initializeApp(this) //initialize your app
         val rootref: DatabaseReference  = FirebaseDatabase.getInstance().reference //your db

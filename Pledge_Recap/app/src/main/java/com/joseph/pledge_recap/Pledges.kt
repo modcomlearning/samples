@@ -25,11 +25,12 @@ class Pledges : AppCompatActivity() {
 
             override fun onDataChange(snapshot: DataSnapshot) {
                 //snapshot has the data
+                tvpledges.setText("")
                 if (snapshot.exists()){
                     //okay, snapshot has the colmns,
                     for (singleSnapshot in snapshot.children){
-                        tvpledges.append("Confirmed : ${singleSnapshot.child("Name")} has pledged. ")
-                        tvpledges.append("KES : ${singleSnapshot.child("Amount")}.")
+                        tvpledges.append("Confirmed : ${singleSnapshot.child("Name").getValue(String::class.java)} has pledged. ")
+                        tvpledges.append("KES : ${singleSnapshot.child("Amount").getValue(String::class.java)}.")
                         tvpledges.append("\n\n")
                     }//end for
                 }
@@ -43,7 +44,7 @@ class Pledges : AppCompatActivity() {
         }//end of listener
         demoref.addValueEventListener(listener) //end
 
-
+//0729 225 710
 
 
     }
