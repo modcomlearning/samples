@@ -1,5 +1,6 @@
 package com.modcom.jose.ui.home
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -9,6 +10,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
+import com.modcom.jose.Bags
 import com.modcom.jose.R
 
 class HomeFragment : Fragment() {
@@ -29,15 +31,22 @@ class HomeFragment : Fragment() {
         // do the same for other 2 buttons
         bags.setOnClickListener(View.OnClickListener {
             //to do intent to empty activity
-
+            //do an empty activity named bags
+            val i = Intent(activity, Bags::class.java)
+            startActivity(i)
         })
 
         belts.setOnClickListener(View.OnClickListener {
             //to do intent to empty activity
+            val i = Intent(activity, Bags::class.java) //do an activity for Belts
+            startActivity(i)
         })
 
         caps.setOnClickListener(View.OnClickListener {
             //to do intent to empty activity
+            val i = Intent(activity, Bags::class.java) ////do an activity for Beltscaps
+            startActivity(i)
+
         })
 
 

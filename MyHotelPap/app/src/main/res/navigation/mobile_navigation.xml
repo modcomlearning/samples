@@ -18,8 +18,22 @@
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
+        android:id="@+id/nav_purchase"
+        android:name="com.modcom.jose.ui.purchase.PurchaseFragment"
+        android:label="Purchase"
+        tools:layout="@layout/fragment_purchase" />
+
+    <fragment
+        android:id="@+id/nav_accomodation"
+        android:name="com.modcom.jose.ui.accomodation.AccomodationFragment"
+        android:label="Accomodation"
+        tools:layout="@layout/fragment_accomodation" />
+
+    <fragment
         android:id="@+id/nav_slideshow"
         android:name="com.modcom.jose.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+
+
 </navigation>

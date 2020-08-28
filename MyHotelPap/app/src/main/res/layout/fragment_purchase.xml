@@ -10,7 +10,6 @@
     <GridView
         android:id="@+id/gridview"
         android:layout_width="373dp"
-        android:numColumns="3"
         android:layout_height="554dp"
         android:layout_marginStart="1dp"
         android:layout_marginLeft="1dp"
